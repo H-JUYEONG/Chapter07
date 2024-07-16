@@ -18,7 +18,7 @@ public class Server {
 		ServerSocket serverSocket = new ServerSocket();
 		
 		//바인드 ip=192.168.0.101  port=10001 여기에 프로그램구동중
-		serverSocket.bind(  new InetSocketAddress("192.168.0.101", 10001)    );
+		serverSocket.bind(  new InetSocketAddress("192.168.0.78", 10001)    );
 
 		//서버시작
 		System.out.println("<서버시작>");
